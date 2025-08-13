@@ -19,7 +19,4 @@ The most critical use of the AI was in a feedback loop to debug the planning and
 
 -   **What the AI Got Wrong (and I corrected):** Initially, the AI assistant incorrectly agreed with the project's sample output. It took several rounds of me providing my step-by-step logical trace (i.e., `ORD-001` is processed first, which uses up `Weevo`'s capacity, making it ineligible for `ORD-002`) for the AI to re-evaluate its own analysis.
 
--   **Outcome & Why this was effective:** The AI eventually corrected its mistake and confirmed that **my code's logic was correct** and the sample output was misleading.
--   This process turned the AI into a validation tool. By forcing it to justify its reasoning against mine, I was able to gain high confidence in my own logic and prove its correctness,
--    which is a more advanced use than simply asking for code. This iterative debugging cycle was the most valuable part of the AI collaboration, helping to solidify complex,
--    stateful logic under tight constraints.
+-   **Outcome & Why this was effective:** The AI eventually corrected its mistake and confirmed that **my code's logic was correct** and the sample output was misleading. This process turned the AI into a validation tool. By forcing it to justify its reasoning against mine, I was able to gain high confidence in my own logic and prove its correctness, which is a more advanced use than simply asking for code. This iterative debugging cycle was the most valuable part of the AI collaboration, helping to solidify complex, stateful logic under tight constraints.
